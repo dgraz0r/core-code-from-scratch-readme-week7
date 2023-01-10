@@ -32,3 +32,12 @@ return F;
 }
 
 let result = toFahrenheit(0)
+
+## Boolean
+
+function nand(b1, b2) {
+let res = b1 && b2;
+return !res;
+}
+
+let bool = nand(true, true)
