@@ -16,3 +16,10 @@ return s1.replace(/-/g, "/")
 }
 
 let test = normalize("20-05-2017") 
+
+## Increment
+
+let x = 3;
+x++;
+x = x * 2;
+x--; // The answer is 7 
