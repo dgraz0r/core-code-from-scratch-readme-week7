@@ -23,3 +23,12 @@ let x = 3;
 x++;
 x = x * 2;
 x--; // The answer is 7 
+
+## Fahrenheit
+
+function toFahrenheit(t) {
+let F = 1.8 * t + 32;
+return F;
+}
+
+let result = toFahrenheit(0)
