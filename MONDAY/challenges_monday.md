@@ -1,1 +1,3 @@
+# MONDAY CHALLENGES
 
+## String: substr()
