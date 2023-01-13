@@ -43,3 +43,28 @@ Array.prototype.first = function() {
 Array.prototype.last = function() {
   return this[this.length-1];
 };
+
+
+## Object Oriented Piracy
+
+![image](https://user-images.githubusercontent.com/117783981/212246684-c96faf6f-5620-4a4c-ad58-94d4c7004915.png)
+
+
+![image](https://user-images.githubusercontent.com/117783981/212246660-aad89dcd-4300-4752-8a0f-061409b8ced3.png)
+
+
+
+/*
+the keyword "this" refers in this case to the object ship
+isWorthIt is a new property/method of the ship object
+We assign the isWothIt method a function and this function
+makes the evaluation a return a true/false value
+*/
+
+function Ship(draft,crew) {
+ this.draft = draft;
+ this.crew = crew;
+  this.isWorthIt = function() {
+    return (this.draft - this.crew * 1.5) > 20;
+}
+  }
