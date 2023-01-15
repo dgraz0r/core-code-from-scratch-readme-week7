@@ -46,4 +46,36 @@ const truthy = [-42, true, {}, "false", []];
 
 const falsy = [false, 0, "", null, NaN];
 
+## Training JS #4: Basic data types--Array
 
+![image](https://user-images.githubusercontent.com/117783981/212526050-339967a4-1392-49f1-a69a-6701c9fb9666.png)
+
+
+
+function getLength(arr){
+  //return length of arr
+  return arr.length
+}
+
+function getFirst(arr){
+  //return the first element of arr
+  return arr[0]
+}
+
+function getLast(arr){
+  //return the last element of arr
+  return (arr.[arr.length - 1] )
+}
+
+function pushElement(arr){
+  var el=1;
+  //push el to arr
+  arr.push(el)
+  return arr
+}
+
+function popElement(arr){
+  //pop an element from arr
+  arr.pop()
+  return arr
+}
