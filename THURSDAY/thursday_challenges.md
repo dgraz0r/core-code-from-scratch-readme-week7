@@ -33,3 +33,16 @@ function digitize(n) {
   return String(n).split('').reverse().map(Number)
 }
 
+## Truthy and Falsy
+
+![image](https://user-images.githubusercontent.com/117783981/212524964-6bf40f26-6b85-4c00-ad87-b53006ab550c.png)
+
+
+/*
+Truthy and falsy values are defined by javascript, always check documentation.
+*/
+
+const truthy = [-42, true, {}, "false", []];
+const falsy = [false, 0, "", null, NaN];
+
+
