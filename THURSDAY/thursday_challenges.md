@@ -43,6 +43,7 @@ Truthy and falsy values are defined by javascript, always check documentation.
 */
 
 const truthy = [-42, true, {}, "false", []];
+
 const falsy = [false, 0, "", null, NaN];
 
 
